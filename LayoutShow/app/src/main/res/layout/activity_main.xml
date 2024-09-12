@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/constraint_layout_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConstraintLayout"
+        />
+    <Button
+        android:id="@+id/linear_layout_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayout"
+        />
+    <Button
+        android:id="@+id/table_layout_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TableLayout"
+        />
+    <Button
+        android:id="@+id/frame_layout_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FrameLayout"
+        />
+    <Button
+        android:id="@+id/relative_layout_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout"
+        />
+    <Button
+        android:id="@+id/grid_layout_button"
+        style="@style/button_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridLayout"
+        />
+
+</LinearLayout>

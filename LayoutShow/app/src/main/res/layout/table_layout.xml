@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:layout_marginBottom="15dp">
+
+    <TableRow
+        android:layout_weight="3">
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/ida"
+            tools:srcCompat="@tools:sample/avatars" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f1a101"
+            android:text="1_0" />
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#a1f101"
+            android:text="1_1" />
+
+    </TableRow>
+    <TableRow android:layout_weight="1">
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#a1a101"
+            android:text="2_0" />
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f101a1"
+            android:text="2_1" />
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#01a1a1"
+            android:text="2_2" />
+
+    </TableRow>
+    <TableRow android:layout_weight="1">
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#01b1f1"
+            android:text="3_0" />
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#f1a1f1"
+            android:text="3_1" />
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#d1e1f1"
+            android:text="3_2" />
+        <TextView
+            style="@style/text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="#e1e1a1"
+            android:text="3_3" />
+
+    </TableRow>
+</TableLayout>
