@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ColorSelector" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->    </style>
+
+    <style name="Theme.ColorSelector" parent="Base.Theme.ColorSelector" />
+
+    <!-- 主Activity 页首样式 -->
+    <style name="header" parent="TextAppearance.AppCompat.Title">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- 颜色选择Activity 页首样式 -->
+    <style name="header.rainbows" parent="header">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <!-- 颜色选择Activity说明文字样式 -->
+    <style name="body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- 选中颜色显示样式 -->
+    <style name="color_block" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">340dp</item>
+    </style>
+    <!-- 所有button统一样式 -->
+    <style name="button" parent="TextAppearance.AppCompat.Widget.Button.Inverse">
+        <item name="android:minWidth">160dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 通用页格式样式 -->
+    <style name="page">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>

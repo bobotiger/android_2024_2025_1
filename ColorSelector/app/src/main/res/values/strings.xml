@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ColorSelector</string>
+    <string name="header_text_main">请点击下面的按钮选择你中意的颜色</string>
+    <string name="header_text_picker">彩虹色</string>
+    <string name="footer_text_picker">选择以上颜色中你最中意的一种</string>
+    <string name="select_color_button">选择颜色</string>
+
+    <string name="red">赤色</string>
+    <string name="orange">橙色</string>
+    <string name="yellow">黄色</string>
+    <string name="green">绿色</string>
+    <string name="blue">蓝色</string>
+    <string name="indigo">靛蓝</string>
+    <string name="violet">紫色</string>
+</resources>
